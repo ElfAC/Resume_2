@@ -1,0 +1,53 @@
+body{
+	margin: 20px 80px;
+}
+
+*{
+	padding: 0;
+}
+
+h2{
+	margin: 3px 0;
+}
+
+.cu{
+	font-size: 18px;
+	font-weight: 550;
+}
+
+.f{
+	float: left;
+}
+
+.name, .sex, .job, .phone, .nengli, .email, .xiangmu, .jiaoyu{
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.clearfix:after{
+	height: 0;
+	content: '.';
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+
+.left{
+	float: left;
+	width: 250px;
+	margin: 10px 15px;
+	height: 680px;
+	background: #48D1CC;
+}
+
+.left2{
+	float: left;
+	margin: 10px 15px;
+	height: 680px;
+}
+
+.jianli{
+	color: #fff;
+	margin: 0 80px;
+	font-size: 22px;
+}

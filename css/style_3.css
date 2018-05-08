@@ -1,0 +1,79 @@
+body{
+	margin: 20px 80px;
+}
+
+*{
+	padding: 0;
+}
+
+h2{
+	margin: 0 10px 1px 0;
+	background: #AFEEEE;
+	width: 80px;
+	height: 80px;
+	font-size: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-weight: 500;
+	padding: 30px;
+	float: left;
+}
+
+.cu{
+	font-size: 18px;
+	font-weight: 550;
+	float: left;
+}
+
+.f{
+	float: left;
+}
+
+.name, .sex, .job, .phone, .nengli, .email, .xiangmu, .jiaoyu{
+	font-size: 18px;
+	font-weight: 400;
+	float: left;
+}
+
+.clearfix:after{
+	height: 0;
+	content: '.';
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+
+/* .left{
+	float: left;
+	width: 300px;
+	margin: 10px 15px;
+	height: 680px;
+	background: #48D1CC;
+}
+ */
+.left2{
+	float: left;
+	margin: 10px auto;
+	height: 680px;
+	width: 100%;
+}
+
+.jianli{
+	color: #fff;
+	margin: 0 15px;
+	font-size: 18px;
+	line-height: 18px;
+}
+
+.top{
+	background: #48D1CC;
+	height: 80px;
+	width: 100%;
+	color: #fff;
+	float: left;
+	text-align: center;
+}
+
+.jibenxinxi, .lianxifangshi, .nenglimiaoshu, .jiaoyujingli, .xiangmujingli{
+	border: 1px solid #48D1CC;
+}
